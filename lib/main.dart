@@ -18,13 +18,14 @@ class App extends StatefulWidget {
 }
 
 class _AppState extends State<App> {
-  String txt = 'First';
+  String txt = 'First ';
 
   void _changeText() {
      
      setState(() {
        if (txt == 'First') {
               txt = "Second";
+
           } else {
               txt = "First";
           }
